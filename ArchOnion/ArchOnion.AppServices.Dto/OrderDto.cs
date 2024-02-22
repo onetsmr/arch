@@ -4,6 +4,8 @@ namespace ArchOnion.AppServices.Dto
 {
     public sealed record OrderDto
     {
+        public uint Id { get; set; }
+
         public OrderStatusEnum Status { get; set; }
 
         public string Number { get; set; }

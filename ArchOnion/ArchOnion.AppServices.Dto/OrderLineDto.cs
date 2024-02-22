@@ -2,6 +2,8 @@
 {
     public sealed record OrderLineDto
     {
+        public uint Id { get; set; }
+
         public string Number { get; set; }
 
         public string SKU { get; set; }
